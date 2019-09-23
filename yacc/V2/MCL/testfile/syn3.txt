@@ -1,0 +1,2 @@
+int a=1;
+double b=1.1;

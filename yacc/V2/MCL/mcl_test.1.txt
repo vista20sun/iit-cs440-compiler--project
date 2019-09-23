@@ -1,0 +1,44 @@
+/*sampal demo for MCL*/
+int a = 3, b =5, c=6;
+print a;
+print b;
+print c;
+// output 3,5,6
+a = b + c;
+print a;
+// output 11;
+print 2*(3+4)+5*6+1;
+// output 45;
+matrix d[3,3]={1,2,3,4,5,6,7,8};
+print d;
+/* out put
+[1,2,3
+ 4,5,6
+ 7,8,0]*/
+print d[2,2];
+// out put 0;
+d[2,2]=9;
+print d;
+/* out put
+[1,2,3
+ 4,5,6
+ 7,8,9]*/
+matrix x[2,3]={ 1,2,3,4,5,6 },y[3,2]={9,8,7,6,5,4};
+print x*y;
+/* out put
+[38,32
+ 101,86]*/
+matrix x1[1,6]={1,2,3,4,5,6},y1[6,1]={9,8,7,6,5,4};
+print x1*y1;
+// output [119]
+print x*2;
+/*output
+[2 4 6
+ 8 10 12]*/
+ print 2*x/2;
+ print -x;
+ print -a;
+ //output x
+ //print nonedef; // id not found;
+ //print x1+y1;     // dimension error
+ end;
